@@ -1,0 +1,137 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 50px;
+}
+
+.profile-image{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border: 5px red solid;
+    border-radius: 50%;
+    filter: blur(3px);
+    transition: filter 2s ;
+}
+
+.profile-image:hover{
+    filter: blur(0);
+}
+
+.hero h1{
+    text-align: center;
+    width: 80%;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+.hero h1 span {
+    font-size: 50px;
+    background: linear-gradient(319deg, #663dff, #aa00ff, #cc4499);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.hero p{
+    width:50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    animation: view linear both;
+    animation-timeline: view();
+}
+
+.hero-action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+.hero-contact{
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    animation: view linear both;
+    animation-timeline: view();
+}
+
+.hero-resume{
+    padding: 20px 75px;
+    border-radius: 50px;
+    border:2px solid #fff;
+    cursor: pointer;
+    transition: .2s ease-in;
+    animation: view linear both;
+    animation-timeline: view();
+}
+
+.hero-contact:hover{
+    border: 2px solid #fff;
+}
+
+.hero-resume:hover{
+    border-color: #551222;
+}
+
+@keyframes view{
+    0%{
+        scale: 0.5;
+    }
+    30%{
+        scale: 1;
+    }
+}
+
+.AnchorLink{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .hero{
+        margin-right: 0;
+    }
+    .hero h1{
+        width: 90%;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .profile-image{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 120px;
+    }
+    .hero p{
+        width: 60%;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+    .hero-contact{
+        padding: 20px 30px;
+        border-radius:40px ;
+        margin-right: 0;
+    }
+    .hero-resume{
+        padding: 20px 50px;
+        border-radius: 40px;
+        margin-right: 0;
+    }
+}
