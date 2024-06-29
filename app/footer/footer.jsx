@@ -1,3 +1,5 @@
+'use client'
+
 import './footer.css'
 import user from '../images/user.svg'
 import Image from 'next/image'

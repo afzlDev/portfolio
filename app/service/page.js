@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import './services.css'
 import { datas } from './services_data'

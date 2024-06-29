@@ -1,4 +1,5 @@
-import { useState, useRef, useEffect } from 'react';
+"use client";
+import { useState, useEffect } from 'react';
 import './navbar.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
