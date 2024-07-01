@@ -6,10 +6,10 @@ import Image from 'next/image'
 
 export default function Footer(){
     return(
-        <div className="footer excluded">
+        <div className="footer">
             <div className="footer-top">
                 <div className="footer-top-left">
-                    <p>Hi, I'm developer with 3 years of experience in creating visually stunning and highly functional web applications . I specialize in bringing creative designs to life and ensuring seamless user experiences</p>
+                    <p>Hi, I'm a developer with 3 years of experience in creating visually stunning and highly functional web applications. I specialize in bringing creative designs to life and ensuring seamless user experiences.</p>
                 </div>
                 <div className="footer-top-right">
                     <div className="footer-email">
@@ -25,7 +25,7 @@ export default function Footer(){
                     <p>&copy; 2024 Afzal Akbar. All rights reserved</p>
                 </div>
                 <div className="footer-bot-right">
-                    <p>Term of Services</p>
+                    <p>Terms of Service</p>
                     <p>Privacy Policy</p>
                     <p>Connect with me</p>
                 </div>

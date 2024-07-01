@@ -28,11 +28,11 @@
 .contact-left h1{
     font-size: 60px;
     font-weight: 500;
-    background: linear-gradient(219deg,#ffbb27 0%,#5b14f4 50%,#b814f4 100%);
+    background: linear-gradient(219deg,#ffbb27 ,#5b14f4 ,#b814f4);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: text-color 2s infinite linear;
+    animation: text-color 3s infinite linear;
 }
 .contact-details{
     display: flex;
@@ -117,6 +117,10 @@
     50% {
         background-size: 200% 100%;
         background-position: 100% 0%;
+    }
+    70%{
+        background-size: 200% 100%;
+        background-position: 0% 100%;
     }
     100% {
         background-size: 200% 100%;
