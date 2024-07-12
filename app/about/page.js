@@ -10,7 +10,9 @@ export default function About(){
             </div>
             <div className="about-section">
                 <div className="about-para">
-                    <p>I am passionate about leveraging technology to solve real-world problems. With a keen interest in both frontend and backend development, I enjoy exploring new technologies and frameworks to continuously improve my skills.</p>
+                    <p>I am passionate about leveraging technology to solve real-world problems. 
+                        With a keen interest in both frontend and backend development, 
+                        I enjoy exploring new technologies and frameworks to continuously improve my skills.</p>
                  </div>
                 <div className="about-skills">
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"70%"}}/></div>

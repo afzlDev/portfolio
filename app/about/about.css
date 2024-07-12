@@ -4,8 +4,8 @@
     align-items: center;
     justify-content:center;
     gap: 90px;
-    margin: 80px 170px;
-    width: 80%;
+    align-content: center;
+    margin: 50px 100px;
 }
 .about-title{
     transition: .5s ease;
@@ -106,12 +106,11 @@
     animation-timeline: view();
 }
 
-@media(max-width:768px){
+@media(max-width:769px){
     .about{
         gap: 80px;
-        margin: 50px;
-        align-items: start;
-        margin-right: 0;
+        align-items: center;
+        margin: 50px 50px ;
     }
     .about-title{
         font-size: 15px;

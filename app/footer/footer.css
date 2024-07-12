@@ -77,7 +77,7 @@
     transition: .3s;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 769px) {
     .footer {
         margin: 20px;
     }
@@ -88,7 +88,7 @@
     }
     
     .footer-top-left p {
-        font-size: clamp(12px, 2.5vw, 14px); /* Adjusted font-size clamp for smaller screens */
+        font-size: clamp(12px, 5vw, 14px);
     }
     
     .footer-email {

@@ -9,7 +9,7 @@ export default function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY >= 5) {
+            if (window.scrollY >= 50) {
                 setFix(true);
             } else {
                 setFix(false);

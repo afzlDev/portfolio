@@ -75,10 +75,10 @@
     }
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
     .service{
+        align-items: center;
         gap: 80px;
-        margin: 50px;
     }
     .service-title h1{
         padding: 0;
