@@ -4,7 +4,7 @@ import './hero.css';
 import React from 'react';
 import Image from 'next/image';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import profile from '../images/profile.jpg';
+import profile from '../images/gym1.jpg';
 
 export default function Hero() {
 
