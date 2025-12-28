@@ -44,6 +44,11 @@ export default function Navbar() {
                             <p>Services</p>
                         </AnchorLink>
                     </li>
+                    <li className='nav-text Portfolio'>
+                        <AnchorLink offset="100" href="#portfolio" className='AnchorLink'>
+                            <p>Portfolio</p>
+                        </AnchorLink>
+                    </li>
                     <li className='nav-text Contact'>
                         <AnchorLink offset="100" href="#contact" className='AnchorLink'>
                             <p>Contact</p>

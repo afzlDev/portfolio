@@ -1,12 +1,12 @@
 'use client'
 
-import React, { useEffect } from 'react';
 import Hero from './home/page';
 import About from './about/page';
 import Services from './service/page';
 import Contact from './contact/page';
 import Footer from './footer/footer';
 import Navbar from './nav/page';
+import Portfolio from './portfolio/page';
 
 
 export default function Home() {
@@ -18,6 +18,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <Portfolio/>
       <Contact />
       <Footer />
     </div>
