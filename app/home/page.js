@@ -1,17 +1,16 @@
 'use client'
 
 import './hero.css';
-import React from 'react';
 import Image from 'next/image';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import profile from '../images/gym1.jpg';
+import prof from '../images/prof.jpeg';
 
 export default function Hero() {
 
 
     return (
         <div className="hero" id="home">
-            <Image className="profile-image" src={profile} alt="profile" priority={true}/>
+            <Image className="profile-image" src={prof} alt="profile" priority={true}/>
             <h1 className='home-h1'>
                 <span>
                     Welcome to Afzal's portfolio website.
