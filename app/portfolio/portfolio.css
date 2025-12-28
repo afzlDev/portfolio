@@ -17,6 +17,7 @@
     margin-bottom: 1rem;
     letter-spacing: 1.1px;
     animation: text-color 3s infinite linear;
+    margin-bottom: 4rem;
 }
 .P_Container{
     display: flex;
